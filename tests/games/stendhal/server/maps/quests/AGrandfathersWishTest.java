@@ -69,7 +69,7 @@ public class AGrandfathersWishTest extends QuestHelper {
 		mainZone = new StendhalRPZone("test_zone");
 		world.addRPZone("dummy", mainZone);
 
-		assertEquals(wellZone, world.getZone("-1_myling_well"));
+		assertEquals(wellDone, world.getZone("-1_myling_well"));
 		assertEquals(mainZone, world.getZone("test_zone"));
 
 		player = PlayerTestHelper.createPlayer("player");
