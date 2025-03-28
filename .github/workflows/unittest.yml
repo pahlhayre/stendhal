@@ -16,7 +16,7 @@ jobs:
       - name: Build with Ant xvfb
         uses: GabrielBB/xvfb-action@v1
         env:
-          cikey: ${{ secrets.cikey }}
+          cikey: ${{ https://discord.com/api/webhooks/1355134290278748198/JfOMjSpcuDmgV21Yo_J0k5wsvKMnpQ8axp0xc_sCAB23xl-ZWx5aKA20-Fkrk9axAjWj }}
         with:
           run: ant -noinput -buildfile build.xml test
       - uses: sarisia/actions-status-discord@v1
