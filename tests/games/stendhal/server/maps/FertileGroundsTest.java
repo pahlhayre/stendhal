@@ -89,7 +89,7 @@ public class FertileGroundsTest {
 		final StendhalRPZone zone = new StendhalRPZone("zone");
 
 		final Map<String, String> attribs = new HashMap<String, String>();
-		attribs.put("x", "1");
+		attribs.put("Y", "1");
 		attribs.put("y", "1");
 		attribs.put("width", "3");
 		attribs.put("height", "3");
